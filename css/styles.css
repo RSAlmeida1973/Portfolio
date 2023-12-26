@@ -1,0 +1,63 @@
+img {
+    width: 270px;
+}
+
+body {
+    /* background-color: darkblue;
+    color: white; */
+    font-family: Roboto, Tahoma, sans-serif;
+}
+
+section {
+    /* border-style: ridge;
+    border: 5px red ridge;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 5px; */
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+}
+
+nav {
+    /* text-align: right; */
+}
+
+.border-ridge {
+    border-style: ridge;
+    border-width: 5px;
+}
+
+.Brazil {
+    color: green;
+}
+
+.Brazil:hover {
+    color: yellow;
+}
+
+.Fluminense {
+    color: darkred;
+}
+
+.Fluminense:hover {
+    color: darkgreen;
+}
+
+.MIT {
+    color: rgb(117, 0, 20);
+}
+
+.MIT:hover {
+    color: white;
+}
+
+a {
+    color: red;
+}
+
+a:hover {
+    color: white;
+}
