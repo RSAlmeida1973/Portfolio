@@ -17,13 +17,40 @@ section {
 }
 
 h1 {
-    text-align: center;
     font-weight: bold;
 }
 
 nav {
     background-color: rgba(0, 0, 0, 0.5);
     /* text-align: right; */
+}
+
+a {
+    color: red;
+}
+
+a:hover {
+    color: white;
+}
+
+.maxwidth {
+    max-width: 75px;
+}
+
+.contacts {
+    color: white;
+}
+
+.contacts:hover {
+    color: white;
+}
+
+.btn-darkblue {
+    background-color: darkblue;
+}
+
+.text-darkblue {
+    color: darkblue;
 }
 
 .border-ridge {
@@ -52,13 +79,5 @@ nav {
 }
 
 .MIT:hover {
-    color: white;
-}
-
-a {
-    color: red;
-}
-
-a:hover {
     color: white;
 }
