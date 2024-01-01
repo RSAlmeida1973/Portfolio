@@ -33,6 +33,11 @@ a:hover {
     color: white;
 }
 
+.EduImg{
+    max-height: 100px;
+    width: auto;
+}
+
 .maxwidth {
     max-width: 75px;
 }
@@ -57,13 +62,12 @@ a:hover {
     border-style: ridge;
     border-width: 5px;
 }
-
 .Brazil {
-    color: green;
+    color: yellow;
 }
 
 .Brazil:hover {
-    color: yellow;
+    color: green;
 }
 
 .Fluminense {
@@ -74,6 +78,16 @@ a:hover {
     color: darkgreen;
 }
 
+.nav-link-edu, .nav-link-edu:hover {
+    color: white;
+    background: black;
+}
+
+.tab-content {
+    border: 1px solid white;
+    padding: 5px;
+}
+/*
 .MIT {
     color: rgb(117, 0, 20);
 }
@@ -81,3 +95,4 @@ a:hover {
 .MIT:hover {
     color: white;
 }
+*/
