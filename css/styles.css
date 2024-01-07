@@ -3,17 +3,7 @@ img {
 }
 
 body {
-    /* background-color: darkblue;
-    color: white; */
     font-family: Roboto, Tahoma, sans-serif;
-}
-
-section {
-    /* border-style: ridge;
-    border: 5px red ridge;
-    border-radius: 15px;
-    padding: 10px;
-    margin: 5px; */
 }
 
 h1 {
@@ -22,24 +12,54 @@ h1 {
 
 nav {
     background-color: rgba(0, 0, 0, 0.5);
-    /* text-align: right; */
 }
 
-a {
-    color: red;
+p {
+    margin: 0px;
 }
 
-a:hover {
-    color: white;
+.exp-link {
+    color: darkblue;
+    text-decoration: none;
 }
 
-.EduImg{
+.exp-link:hover {
+    color: darkgray;
+    text-decoration: none;
+}
+
+.EduImg {
+    max-height: 100px;
+    max-width: 100px;
+    margin: auto;
+}
+
+.ExpImg {
     max-height: 100px;
     width: auto;
 }
 
-.maxwidth {
+.maxwidth-75 {
     max-width: 75px;
+}
+
+.card {
+    max-width: 15rem;
+    min-height: 17rem;
+    max-height: 20rem;
+}
+
+.card-body {
+    color: black;
+}
+
+.accordion-body, .accordion-item {
+    background-color: lightgray;
+}
+
+.accordion-button {
+    color: white;
+    background-color: darkblue;
 }
 
 .contacts {
@@ -87,12 +107,12 @@ a:hover {
     border: 1px solid white;
     padding: 5px;
 }
-/*
-.MIT {
-    color: rgb(117, 0, 20);
+
+.CoName {
+    font-weight: bolder;
+    margin-bottom: 5px;
 }
 
-.MIT:hover {
-    color: white;
+.Years {
+    font-weight: bold;
 }
-*/

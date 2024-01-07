@@ -3,15 +3,20 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Bootstrap-->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+
+    <!--Custom styles-->
     <link rel="stylesheet" href="css/styles.css" />
+
     <!-- FontAwesome -->
     <link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/fontawesome.css"/>
     <link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/brands.css"/>
     <link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/solid.css"/>
-<!--        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
-    <link href='fonts/fonts.css' rel='stylesheet'>-->
+
+    <!--Favicon-->
     <link rel="icon" type="image/x-icon" href="images/favicon-32x32.png" />
+
     <title>Roberto S. Almeida</title>
 </head>
 
@@ -24,15 +29,8 @@
                 </div>
                 <div class="col my-auto d-flex justify-content-end">
                     <figure>
-                            <img class="maxwidth" src="images/RobertoAlmeida.jpg" alt="Roberto S. Almeida"/>
-                    </figure>        
-<!--
-                    <span class="navbar-text ms-auto">
-                        <a role="button" data-bs-toggle="modal" data-bs-target="#contactModal" class="btn btn-darkblue text-white">
-                            Contact Me
-                        </a>
-                    </span>
--->
+                            <img class="maxwidth-75" src="images/RobertoAlmeida.jpg" alt="Roberto S. Almeida"/>
+                    </figure>
                 </div>
             </div>
         </div>
@@ -97,68 +95,297 @@
 
     <main>
         <section class="row row-content m-2 p-2">
-<!--
-            <figure>
-                <a href="mailto:univil@gmail">
-                    <img src="images/RobertoAlmeida.jpg" alt="Roberto S. Almeida"/>
-                </a>
-            </figure>
--->
-            <h2 id="AboutMe">About Me</h2>
-            <ul>
-                <li>
-                    I was born in Evanston, IL, but I grew up in Garden Grove, CA.
-                </li>
-                <li>
-                    Although I was born in America, I hold dual citizenship with <a href="https://en.wikipedia.org/wiki/Brazil" target="_blank" class="Brazil">Brazil</a> as my parents are both Brazilian immigrants from <a href="https://maps.app.goo.gl/qPQ7PSqR84ur5nULA" target="_blank" class="Brazil">Rio de Janeiro</a>.
-                    <figure>
-                        <a href="https://en.wikipedia.org/wiki/Brazil" target="_blank">
-                            <img src="images/BrazilianFlag.jpeg" alt="Brazilian Flag"/>
-                        </a>
-                    </figure>
-                <br>
-                </li>
-                <li>
-                    I currently live in Rockford, IL.
-                </li>
-                <li>
-                    I graduated from <a href="https://www.mit.edu" target="_blank" class="MIT">MIT</a> with a B.S. in Management Sciences.
-                </li>
-                <li>
-                    I was incarcerated the past 8 1/2 years and am using these courses to refresh my programming skills as well as pick up new skills from the ever-changing IT environment.
-                </li>
-            </ul>
-            <p>For anybody interested, here is an instrumental version of the Brazilian national anthem (Hino Nacional Brasileiro) performed by the U.S. Navy Band:</p> 
-            <audio controls> <source src="mp3s/Hino_Nacional_Brasileiro_instrumental.ogg" type="audio/ogg">Your browser does not support HTML5 audio. Here is <a href="mp3s/Hino_Nacional_Brasileiro_instrumental.ogg">a link to the audio</a> instead.</audio>
-        </section>
-
-        <section class="m-2 p-2 border-ridge border-danger">
-            <h2 id="Interests">Interests</h2>
-            <ul>
-                <li>
-                    I have been interested in military aircraft since I was nine and at one point wanted to become a fighter pilot.
-                    <figure>
-                        <a href="https://en.wikipedia.org/wiki/Lockheed_Martin_F-22_Raptor" target="_blank">
-                            <img src="images/F-22_Raptor_edit1_(cropped).jpg" alt="F-22 Raptor"/>
-                        </a>
-                        <figcaption>F-22 Raptor</figcaption>
-                    </figure>
-                </li>
-                <li>
-                    Of course, I <strong>LOVE</strong> soccer!  My favorite team is a team in Rio is called <a href="https://en.wikipedia.org/wiki/Fluminense_FC" target="_blank" class="Fluminense"><em>Fluminense</em></a>.
-                    <figure>
-                        <a href="https://en.wikipedia.org/wiki/Fluminense_FC" target="_blank">
-                            <img src="images/Fluminense_fc_logo.png" alt="Fluminense" />
-                        </a>
-                    </figure>
-            </li>
-            </ul>
-        </section>
-        
+            <div class="accordion" id="accordionExperience">
+                <div class="accordion-item">
+                    <h4>
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#Intro">
+                            Introduction
+                        </button>
+                    </h4>
+                    <div id="Intro" class="accordion-collapse collapse show" data-bs-parent="#accordionExperience">
+                        <div class="accordion-body d-none d-sm-block">
+                            <p>Proficient in engineering and executing high-quality, scalable, and maintainable software solutions to streamline technical operations, expedite organizational efficiency, and improve user experience. Adept at designing and developing object-oriented web and desktop applications using languages such as JavaScript, C#, and VB and ASP and .Net frameworks. Instrumental in resolving bugs, enhancing existing programs, and writing and validating code. Well-versed in crafting robust data models and relational databases to optimize data storage and database performance. Well-versed in leading SQL database design, Quality Assurance initiatives, and rigorous testing of application software. Refined communicator: skilled at translating stakeholders’ use cases and requirements into actionable system enhancements. Keen to drive excellence in software development and innovation.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h4>
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#Skills">
+                            Skills
+                        </button>
+                    </h4>
+                    <div id="Skills" class="accordion-collapse collapse" data-bs-parent="#accordionExperience">
+                        <div class="accordion-body d-none d-sm-block">
+                            <table class="table">
+                                <tbody>
+                                  <tr>
+                                    <th scope="row">Programming Languages</th>
+                                    <td>ASP, ASP.NET, C#, VBA, VB.NET, VB Script, Visual Basic, Visual Interdev, Bootstrap, CSS, SCSS, HTML, HTML5, JavaScript, SQL, XML</td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">Databases</th>
+                                    <td>MS Access, MS SQL Server, MySQL</td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">Tools & Platforms</th>
+                                    <td>Excel Development, Git, Scrum, Visual Studio, Visual Source Safe</td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h4>
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#Experience">
+                            Work Experience
+                        </button>
+                    </h4>
+                    <div id="Experience" class="accordion-collapse collapse" data-bs-parent="#accordionExperience">
+                        <div class="accordion-body d-none d-sm-block">
+                            <div class="row">
+                                <div class="col">
+                                    <p class="CoName">Body Scientific, Grayslake, IL</p>
+                                </div>
+                                <div class="col text-end">
+                                    <p class="Years">2023-Present</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <p>IT Specialist</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <p>Analyzing existing Excel spreadsheets to improve data collection and presentation for illustrators and clients.</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <ul>
+                                        <li>Designing SQL Server database based on existing Excel spreadsheets and collaborating with a team to design mobile app and website to interface with database.</li>
+                                        <li>Leveraging Azure AI Custom Vision to automatically generate keywords for existing medical illustrations.</li>
+                                        <li>Involved in development of new website, focusing on SEO and Google AdWords implementation.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <p class="CoName">Baxter Healthcare, Round Lake, IL</p>
+                                </div>
+                                <div class="col text-end">
+                                    <p class="Years">2012 – 2015</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <p>Contractor | Analyst</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <p>Analyzed process for testing of hospital-based medical devices to improve testing and automate results.</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <ul>
+                                        <li>Collaborated with a team to conceptualize and create Excel iterations of paper documents employed by field technicians for device testing, resulting in reducing errors and eliminating invalid entries.  New Excel spreadsheets used complex formulae, custom macros, and VBA code.</li>
+                                        <li>Spearheaded the global implementation of Seibel to supplant Excel-based testing software, encompassing the creation and execution of a comprehensive migration package for seamless deployment.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <p class="CoName">Rexam Beverage Can Americas, Chicago, IL</p>
+                                </div>
+                                <div class="col text-end">
+                                    <p class="Years">2008 – 2012</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <p>Application Developer | Application Analyst</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <p>Wrote, tested, and debugged code in various programming languages to develop functional applications. Created user-friendly interfaces and partnered with designers to ensure a positive user experience. Integrated applications with other systems, databases, and third-party services as needed.</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <ul>
+                                        <li>Developed and enhanced various internal and external global web applications facilitating customer orders, quality issue tracking, and feedback collection.</li>
+                                        <li>Supported and managed a VB/XML-based application dedicated to the efficient exchange of aluminum data between vendors and Rexam.</li>
+                                        <li>Oversaw the interface for manual and automatic gauges, enabling seamless data transfer to QAS through scheduled tasks and C# scripts.</li>
+                                        <li>Maintained the QAS quality control web-based software and OMS plant monitoring software.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <h5>Related Experience</h5>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    Contractor | Analyst – Brook Furniture Rental, Lake Forest, IL
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <ul>
+                                        <li>Collaborated as a vital team member in the development of a customer-facing website, empowering users with comprehensive furniture information and room selection capabilities.</li>
+                                        <li>Monitored website performance using Google Analytics.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    Contractor/Implementation Specialist – Follett Software Company, McHenry, IL
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <ul>
+                                        <li>Executed remote implementation and configuration of Destiny library automation software on Windows servers featuring a SQL Server backend, spanning multiple school district libraries in the United States and Canada.</li>
+                                        <li>Facilitated the seamless integration of student management system data into Destiny by formulating XML style sheets tailored for an automated patron update procedure.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    Contractor – Amcol International, Arlington Heights, IL
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <ul>
+                                        <li>Revamped five subsidiary websites leveraging existing content in ASP.Net and C#.Net to align with a fresh template.</li>
+                                        <li>Innovatively designed a novel menu system to enhance navigation for newly transformed sites.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    Contractor – SAI, Arlington Heights, IL
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <ul>
+                                        <li>Created web-based reports in ASP to extract data from a SQL Server database using complex queries and stored procedures, facilitating the generation of tailored billing and collections phone and mailing lists.</li>
+                                        <li>Drove a remarkable 66% reduction in total outstanding collections by collaborating in development of streamlined processes.</li>
+                                        <li>Assisted in creating customized dealer-management websites using ASP and a SQL Server backend for enhanced functionality.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    Contractor – Kraft Foods, Glenview, IL
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <ul>
+                                        <li>Refurbished an internal website, transitioning from Visual Basic to VB Script/ASP with a robust SQL Server backend.</li>
+                                        <li>Rectified an existing non-functioning website featuring an Oracle backend to enhance functionality.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    Contractor – Strategic Velocity, Inc., Buffalo Grove, IL
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <ul>
+                                        <li>Oversaw the administration of the Hosting Controller web-hosting system, encompassing the creation of new accounts, providing technical support, and establishing pricing structure and domain name registration.</li>
+                                        <li>Designed and implemented a comprehensive tracking system using VBA, proficiently managing inventory and customer data, with the added capability to seamlessly import product information from Excel.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    Developer – Conagra Foods, Inc., Irvine, CA
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <ul>
+                                        <li>Minimized the billing process from two days to a mere one hour by building an application using an Access and VBA front end and a SQL Server back end.</li>
+                                        <li>Enhanced an online Laboratory Work Request (LWR) system through Visual Interdev by introducing the capability to generate packing slips.</li>
+                                        <li>Led a comprehensive redesign and rewriting of the LWR, encompassing the overhaul of the SQL Server database and ASP pages to seamlessly incorporate stored procedures.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    Applications Developer | Consultant - Pilot Software, Inc., Cambridge, MA
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <ul>
+                                        <li>Conceptualized and executed a novel exception-tracking application, leading to enhanced user interface using the proprietary Pilot Software application development suite.</li>
+                                        <li>Engineered a user-friendly tool facilitating the creation and editing of custom database groups, empowering users to establish database groups through a user-friendly front-end interface, negating the need for command-line operations.</li>
+                                        <li>Architected a fully user-customizable main screen leveraging proprietary Pilot Software application development suite.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h4>
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#Portfolio">
+                            Portfolio
+                        </button>
+                    </h4>
+                    <div id="Portfolio" class="accordion-collapse collapse" data-bs-parent="#accordionExperience">
+                        <div class="accordion-body d-none d-sm-block">
+                            <div class="row">
+                                <div class="col my-auto">
+                                    <h4 class="my-2"><a href="https://www.bodyscientific.com" target="_blank" class="exp-link">Body Scientific</a></h4>
+                                    <p class="d-none d-sm-block">Contributor, consultant, SEO</p>
+                                </div>
+                                <div class="col my-auto">
+                                    <a href="https://www.bodyscientific.com" target="_blank"><img class="float-end" src="images/BSILogo.png" alt="BodyScientific Logo"/></a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col my-auto">
+                                    <h4 class="my-2"><a href="https://www.massage-at-home.com" target="_blank" class="exp-link">Massage @ Home</h4></a>
+                                    <p class="d-none d-sm-block">Developer, SEO</p>
+                                </div>
+                                <div class="col my-auto">
+                                    <a href="https://www.massage-at-home.com" target="_blank"><img class="float-end ExpImg" src="images/Constance.jpg" alt="Massage at Home Picture"/></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h4>
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#Resume">
+                            Downloadable Resume
+                        </button>
+                    </h4>
+                    <div id="Resume" class="accordion-collapse collapse" data-bs-parent="#accordionExperience">
+                        <div class="accordion-body d-none d-sm-block text-center">
+                            <a href="RobertoSAlmeida-Resume.docx" class="exp-link"><i class="fa-solid fa-file fa-lg"></i> My Resume</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>        
     </main>
 
     <footer>
-
+        <p class="text-center">&copy 2024 Roberto S. Almeida</p>
     </footer>
 
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
