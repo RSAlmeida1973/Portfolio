@@ -45,8 +45,7 @@ p {
 
 .card {
     max-width: 15rem;
-    min-height: 17rem;
-    max-height: 20rem;
+    height: 300px;
 }
 
 .card-body {
